@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://bogdan-kabanov.github.io/Sole-Proprietorship-Website
+Sitemap: https://bogdan-kabanov.github.io/Sole-Proprietorship-Website/sitemap.xml
