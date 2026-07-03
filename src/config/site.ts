@@ -19,9 +19,9 @@ export const siteConfig = {
     countryName: "Россия",
   },
   contacts: {
-    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hello@example.com",
-    phone: process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "+7 (900) 000-00-00",
-    telegram: process.env.NEXT_PUBLIC_TELEGRAM ?? "https://t.me/your_username",
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "bogdankabanovprof@gmail.com",
+    phone: process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "+7 (962) 888-14-37",
+    telegram: process.env.NEXT_PUBLIC_TELEGRAM ?? "https://t.me/bogdan_kabanov",
   },
   links: {
     github: "https://github.com/bogdan-kabanov",
