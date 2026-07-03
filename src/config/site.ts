@@ -7,7 +7,9 @@ export const siteConfig = {
     "Закажите разработку сайта или веб-приложения под ключ. ИП Кабанов Богдан — fullstack-разработка для бизнеса: лендинги, интернет-магазины, админ-пanels, Telegram-магазины. Сочи и вся Россия, работа по договору.",
   shortDescription:
     "Разработка сайтов и приложений на заказ — под ключ, с SEO и поддержкой.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com",
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    "https://bogdan-kabanov.github.io/Sole-Proprietorship-Website",
   locale: "ru_RU",
   language: "ru",
   location: {

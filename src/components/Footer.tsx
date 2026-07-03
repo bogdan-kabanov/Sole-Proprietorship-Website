@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import { getSiteUrl } from "@/lib/seo";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -29,7 +30,7 @@ export function Footer() {
           <Link href="/seo-check" className="text-slate-600 hover:text-[#FF0000]">
             SEO-проверка
           </Link>
-          <a href="/sitemap.xml" className="text-slate-600 hover:text-[#FF0000]">
+          <a href={getSiteUrl("/sitemap.xml")} className="text-slate-600 hover:text-[#FF0000]">
             Sitemap
           </a>
         </nav>
